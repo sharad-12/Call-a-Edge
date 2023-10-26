@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="CSS/registrationform.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+</head>
+<body>
+    <div class="center">
+        <h1>Registration</h1>
+        <form id="reg-form" method="post">
+            <center><small><span id="error" style="color: red"></span></small></center>
+            <div class="txt-field">
+                <input type="text" id="reg-username" name="username">
+                <label>Username</label>
+                <span></span>
+
+            </div>
+            <div class="txt-field">
+                <input type="email" id="reg-email" name="email">
+                <label>Enter your email</label>
+                <span></span>
+
+            </div>
+            <div class="txt-field">
+                <input type="password" id="reg-password" name="password">
+                <label>Enter your Password</label>
+                <span></span>
+
+            </div>
+            <input type="submit"  onclick="signUp()" id="reg-button" value="Register" >
+            <div class="signup-link"> Already a member? <a href="form.html">Login</a>
+            </div>
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="Javascript/firebase.js"></script>
+    <script src="registration.js"></script>
+</body>
+
+</html>

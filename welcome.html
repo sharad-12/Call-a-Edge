@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="CSS/project.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="" style="margin-left: 20px;">Call a Edge</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="" href="payment.html"><button class="btn btn-danger" style="margin-right: 20px;">Hire Mentor</button></a>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-danger" style="margin-right: 20px;" onclick="logout()">Logout</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- <center>
+        <div style="margin:100px">
+            <span id="user" class="message">Hello, < email-id></Email-id></span>
+            <div class="success"><span>Welcome to auth starter, You are successfully loged in!!!</span></div><br />
+            <button class="btn btn-danger" onclick="logout()">Logout</button>
+        </div>
+    </center> -->
+      <section id="cd">
+        <div class="test">
+          <input type="radio" name="dot" id="one">
+          <input type="radio" name="dot" id="two">
+          <div class="main-card">
+            <div class="cards">
+              <div class="card">
+               <div class="content">
+                 <div class="img">
+                   <img src="Images/mentor1.jpg" alt="">
+                 </div>
+                 <div class="details">
+                   <div class="name">John</div>
+                   <div class="job">Pune</div>
+                 </div>
+                 <div class="media-icons">
+                  <a href="#"><button class="button1">Read More</button></a>
+                 </div>
+               </div>
+              </div>
+              <div class="card">
+               <div class="content">
+                 <div class="img">
+                   <img src="Images/mentor2.jpg" alt="">
+                 </div>
+                 <div class="details">
+                   <div class="name">Reba</div>
+                   <div class="job">Delhi</div>
+                 </div>
+                 <div class="media-icons">
+                  <a href="#"><button class="button1">Read More</button></a>
+                 </div>
+               </div>
+              </div>
+              <div class="card">
+               <div class="content">
+                 <div class="img">
+                   <img src="Images/mentor3.jpg" alt="">
+                 </div>
+                 <div class="details">
+                   <div class="name">Marnus</div>
+                   <div class="job">Bhopal</div>
+                 </div>
+                 <div class="media-icons">
+                  <a href="#"><button class="button1">Read More</button></a>
+                 </div>
+               </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+               <div class="content">
+                 <div class="img">
+                   <img src="Images/mentor4.jpg" alt="">
+                 </div>
+                 <div class="details">
+                   <div class="name">Rubina</div>
+                   <div class="job">Bangalore</div>
+                 </div>
+                 <div class="media-icons">
+                  <a href="#"><button class="button1">Read More</button></a>
+                 </div>
+               </div>
+              </div>
+              <div class="card">
+               <div class="content">
+                 <div class="img">
+                   <img src="Images/mentor5.jpg" alt="">
+                 </div>
+                 <div class="details">
+                   <div class="name">Sakshi</div>
+                   <div class="job">Gwalior</div>
+                 </div>
+                 <div class="media-icons">
+                  <a href="#"><button class="button1">Read More</button></a>
+                 </div>
+               </div>
+              </div>
+              <div class="card">
+               <div class="content">
+                 <div class="img">
+                   <img src="Images/mentor6.jpg" alt="">
+                 </div>
+                 <div class="details">
+                   <div class="name">Sam</div>
+                   <div class="job">Mumbai</div>
+                 </div>
+                 <div class="media-icons">
+                  <a href="#"><button class="button1">Read More</button></a>
+                 </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <label for="one" class=" active one"></label>
+            <label for="two" class="two"></label>
+          </div>
+        </div>  
+      </section>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="Javascript/firebase.js"></script>
+    <script src="Javascript/welcome.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</body>
+
+</html>
